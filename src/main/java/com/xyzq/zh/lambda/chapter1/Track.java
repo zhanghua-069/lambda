@@ -1,6 +1,7 @@
 package com.xyzq.zh.lambda.chapter1;
 
 /**
+ * 专辑中的曲目
  * 
  * @author zhanghua
  *
