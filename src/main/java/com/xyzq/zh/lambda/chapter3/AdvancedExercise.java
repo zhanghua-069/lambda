@@ -8,11 +8,12 @@ import java.util.stream.Stream;
 
 /**
  * 进阶练习
+ * java8的重要变化：允许接口中的方法包含方法体
  * 
  * @author zhanghua
  *
  */
-public class AdvancedExercise {
+public interface AdvancedExercise {
 	
 	/**
 	 * 只用reduce和Lambda表达式实现Stream上的map操作
@@ -53,7 +54,7 @@ public class AdvancedExercise {
 		}, (List<I> left, List<I> right) -> combineLists(left, right));
 	}
 
-	private static <I> List<I> combineLists(List<I> left, List<I> right) {
+	static <I> List<I> combineLists(List<I> left, List<I> right) {
 		// 复制left，避免对left造成更改
 		List<I> newLeft = new ArrayList<>(left);
 		newLeft.addAll(right);
