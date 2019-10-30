@@ -1,4 +1,4 @@
-package com.xyzq.zh.lambda.introduction;
+package com.xyzq.zh.lambda.chapter2;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

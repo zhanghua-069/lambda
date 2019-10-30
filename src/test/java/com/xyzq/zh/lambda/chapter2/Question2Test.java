@@ -1,4 +1,4 @@
-package com.xyzq.zh.lambda.introduction;
+package com.xyzq.zh.lambda.chapter2;
 
 import static org.junit.Assert.assertEquals;
 
